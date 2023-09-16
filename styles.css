@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(45deg, #d8c3ab, #e5d7c7, #f2ebe3, #f9f5f1);
+    background-size: 300% 300%;
+}
+
+
+
+/* Navbar Stili */
+.navbar {
+    background-color: #75b62b !important; /* Arkaplan rengi */
+}
+.navbar-nav .nav-link {
+    color: ghostwhite !important; /* Metin rengi */
+    font-family:sans-serif;
+    font-size: 110%;
+    font-weight: bold;
+
+    margin-right: 3vw;
+}
+.navbar-brand {
+    color: ghostwhite !important; /* Metin rengi */
+    font-family:sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: 0.3vw;
+}
+
+
+.card {
+        border: none;
+
+        background-color: whitesmoke;
+        color: ghostwhite !important; /* Metin rengi */
+
+}
+.card-body {
+        border-radius: 4%;
+
+}
+
+.card-image {
+        max-height: 400px;
+}
+
+.product {
+        border: none;
+        transition: transform 0.2s;
+        background-color: #75b62b;
+        color: ghostwhite !important; /* Metin rengi */
+        min-height: 20vw;
+        max-height: 20vw;
+
+}
+.product:hover {
+        transform: scale(1.05);
+}
+
+
+.btn{
+        color: #75b62b; /* Metin rengi */
+        font-family:sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        width: 100%;
+}
